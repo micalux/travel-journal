@@ -28,6 +28,11 @@ body {
 
 /* CARD section */
 
+.card--container {
+  display: flex;
+  justify-content: center;
+}
+
 .card {
   display: flex;
   align-items: center;
