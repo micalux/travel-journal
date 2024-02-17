@@ -10,11 +10,10 @@ function App() {
             item = {item}
           />
   })
-  
   return (
-    <div>
+    <div className="container">
       <Navbar />
-      {cards}
+      {cards} 
     </div>
   )
 }
